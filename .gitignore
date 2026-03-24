@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.eggs/
+
+# Data (raw downloads — keep processed artefacts if desired)
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated outputs
+data/processed/maps/
+data/processed/plots/
+data/processed/reports/
+
+# Notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
